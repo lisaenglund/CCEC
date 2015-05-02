@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="567.0" prefWidth="703.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="ccecoperator.Scene2Controller">
+  <children>
+    <Label alignment="CENTER" layoutX="28.0" layoutY="38.0" text="CROSS COUNTRY EDUCATIONAL CONSULTANCY">
+      <font>
+        <Font name="Bookman Old Style" size="26.0" />
+      </font>
+    </Label>
+    <Button layoutX="14.0" layoutY="178.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="START" />
+    <Button layoutX="14.0" layoutY="217.0" mnemonicParsing="false" onAction="#handleButtonStudentsAction" prefHeight="25.0" prefWidth="100.0" text="STUDENTS" />
+    <Button layoutX="14.0" layoutY="259.0" mnemonicParsing="false" onAction="#handleButtonCountriesAction" prefHeight="25.0" prefWidth="100.0" text="COUNTRIES" />
+    <Button layoutX="14.0" layoutY="301.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="UNIVERSITIES" />
+    <Button layoutX="14.0" layoutY="344.0" mnemonicParsing="false" text="SCHOLARSHIPS" />
+    <Button layoutX="14.0" layoutY="387.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="APPLICATIONS" />
+    <Button layoutX="14.0" layoutY="430.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="EMPLOYEES" />
+    <Button layoutX="14.0" layoutY="470.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="SETTINGS" />
+    <Button layoutX="14.0" layoutY="510.0" mnemonicParsing="false" onAction="#handleButtonLogOutAction" prefHeight="25.0" prefWidth="100.0" text="LOG OUT" />
+    <Label layoutX="47.0" layoutY="125.0" text="MENU" />
+  </children>
+</AnchorPane>

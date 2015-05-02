@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="567.0" prefWidth="703.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ccecoperator.SeController">
+  <children>
+    <Label alignment="CENTER" layoutX="28.0" layoutY="38.0" text="CROSS COUNTRY EDUCATIONAL CONSULTANCY">
+      <font>
+        <Font name="Bookman Old Style" size="26.0" />
+      </font>
+    </Label>
+    <Button layoutX="14.0" layoutY="178.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="START" />
+    <Button layoutX="14.0" layoutY="217.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="STUDENTS" />
+    <Button layoutX="14.0" layoutY="259.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="COUNTRIES" />
+    <Button layoutX="14.0" layoutY="301.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="UNIVERSITIES" />
+    <Button layoutX="14.0" layoutY="344.0" mnemonicParsing="false" text="SCHOLARSHIPS" />
+    <Button layoutX="14.0" layoutY="387.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="APPLICATIONS" />
+    <Button layoutX="14.0" layoutY="430.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="EMPLOYEES" />
+    <Button layoutX="14.0" layoutY="470.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="SETTINGS" />
+    <Button layoutX="14.0" layoutY="510.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="LOG OUT" />
+    <Label layoutX="47.0" layoutY="125.0" text="MENU" />
+      <Label layoutX="371.0" layoutY="170.0" text="SETTINGS">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="newAccount" layoutX="309.0" layoutY="470.0" mnemonicParsing="false" text="New account" />
+      <TextField fx:id="employeeID" layoutX="340.0" layoutY="239.0" promptText="EMPLOYEE ID" />
+      <PasswordField fx:id="password" layoutX="340.0" layoutY="289.0" promptText="PASSWORD" />
+      <CheckBox fx:id="adminAuthority" layoutX="341.0" layoutY="391.0" mnemonicParsing="false" text="ADMIN" />
+      <CheckBox fx:id="userAuthority" layoutX="342.0" layoutY="422.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="54.0" text="USER" />
+      <Label fx:id="passwordError" layoutX="510.0" layoutY="345.0" prefHeight="17.0" prefWidth="149.0" textFill="RED">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="employeeIDError" layoutX="510.0" layoutY="243.0" prefHeight="17.0" prefWidth="149.0" textFill="RED">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="165.0" layoutY="243.0" text="Enter employee ID" />
+      <Label layoutX="165.0" layoutY="293.0" text="Enter new password" />
+      <Label layoutX="165.0" layoutY="345.0" text="Enter password again" />
+      <PasswordField fx:id="passwordAgain" layoutX="340.0" layoutY="341.0" promptText="PASSWORD" />
+      <Button fx:id="updateAccount" layoutX="422.0" layoutY="470.0" mnemonicParsing="false" text="Update account" />
+  </children>
+</AnchorPane>
