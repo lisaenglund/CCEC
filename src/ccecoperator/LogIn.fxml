@@ -27,7 +27,7 @@
     <TextField fx:id="usernameLogIn" layoutX="285.0" layoutY="353.0" prefWidth="200.0" promptText="USERNAME" />
     <PasswordField fx:id="passwordLogIn" layoutX="285.0" layoutY="400.0" prefWidth="200.0" promptText="PASSWORD" />
     <Button layoutX="354.0" layoutY="443.0" mnemonicParsing="false" onAction="#handleButtonLogInAction" text="Log In" />
-      <Label fx:id="labelLogIn" layoutX="261.0" layoutY="325.0" text="PLEASE ENTER USERNAME AND PASSWORD" textFill="RED">
+      <Label fx:id="labelLogIn" layoutX="261.0" layoutY="325.0" textFill="RED">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
